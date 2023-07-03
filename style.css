@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    border: 0;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 20px;
+}
+
+section{
+    background: linear-gradient(150deg,rgb(255, 179, 0),rgb(255, 51, 0));
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.colorDiv{
+    background: linear-gradient(150deg,rgb(255, 179, 0),rgb(255, 51, 0));
+    width: 320px;
+    height: 320px;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+    top: 210px;
+    left: 250px;
+    box-shadow: 0 0 30px rgb(255, 94, 53);
+}
+
+.mainDiv{
+    background-color: white;
+    width: 900px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 170px;
+    margin-right: 240px; 
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.266);
+
+}
+
+article{
+    position: relative;
+    left: 300px;
+    top: 80px;
+    line-height: 1.2;
+}
+
+p{
+    color: rgb(100, 100, 100);
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+button{
+    background: linear-gradient(150deg,rgb(255, 179, 0),rgb(255, 51, 0));
+    color: white;   
+    padding: 15px 35px;
+    border-radius: 50px;
+    margin: 10px 0;
+}
+
+.dot{
+    color: rgb(255, 73, 28);
+}
+
+i{
+    color: rgba(70, 70, 70, 0.399);
+    position: relative;
+    z-index: 2;
+    font-size: 15px;
+    margin-bottom:15px ;
+}
+
+.sideBar{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 280px;
+    top: 330px;
+    
+}
